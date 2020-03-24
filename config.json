@@ -1,0 +1,11 @@
+
+{
+    "csvDir":"~/Desktop/Source-code/NodeJs/Libray/Worder_csv2msql",
+    "dbhost":"localhost",
+    "dbuser":"demo",
+    "dbpass":"password",
+    "dbname":"testcsv",
+    "tbljob":"jobs",
+    "tblworker":"workers",
+    "countThreads":10
+}
