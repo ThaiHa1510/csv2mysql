@@ -230,7 +230,7 @@ function getHeaderCsvFile(file){
 }
 function writeFile(file,data){
     fs.appendFile(file,data,function(err){
-        console.log(err)
+        throw err;
     })
 }
 function createErrFile(){
